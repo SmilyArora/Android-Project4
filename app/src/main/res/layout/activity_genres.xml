@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_genres"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.smi.android.musicapp.Genres">
+
+    <TextView
+        android:id="@+id/pop"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99E91E63"
+        android:onClick="openNumberList"
+        android:text="@string/genre1" />
+
+    <TextView
+        android:id="@+id/jazz"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#99E91E63"
+        android:text="@string/genre2" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:text="Displaying genre list here."
+        android:textColor="#000000" />
+
+</LinearLayout>
